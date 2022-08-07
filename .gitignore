@@ -1,0 +1,53 @@
+# dotenv environment variables file
+.env
+.env_*
+.env.*
+!.env.example
+
+# compiled output
+build
+/build
+
+# dependencies directories
+/node_modules
+node_modules
+local/**/cert
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+logs/**
+!logs/.gitkeep
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# tests
+/coverage
+/.nyc_output
+junit.xml
+globalConfig.json
+test-report.html
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+
+# VSCode IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
